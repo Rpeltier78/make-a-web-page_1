@@ -1,0 +1,47 @@
+/* Body used to encompass gray background of document, and establist font size and padding */
+
+body {
+	font-size: 25px;
+	background-color: gray;
+	padding: 25px;
+}  
+
+/* Title used to isolate the main title block, center text, and match border style with the rest of the document*/
+
+.Title {
+ font-family: cursive;
+  background-color: white; 
+	text-align: center;
+	Font-size: 25px;
+	border-radius: 20px;
+	border: 5px solid black;
+	Width: 95%;
+  margin: 15px;
+}
+
+/* ContentTitle used to set font size, align, color, ect for ContentTitle and ContentText classes*/
+
+.ContentTitle {
+  font-family: Helvetica;
+  Text-align: center;
+  Background-color: white;
+  border-radius: 20px;
+	border: 5px solid black;
+  Padding: 8px;
+}
+/* Used ContentPoints to establish new border inside of ContentTitle blocks, and to align text to left and change color to white to stand out in teal back gound*/
+
+.ContentPoints {
+  Background-color: teal;
+  text-align: left;
+  Color: white;
+  border-radius: 20px;border: 5px solid black;
+  Padding: 8px;
+}
+
+/* Context class used to change font family and text align inside of the ContentTitle class to improve content*/
+
+.ContentText {
+  font-family: cursive;
+  text-align: center;
+}
